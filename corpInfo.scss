@@ -1,0 +1,117 @@
+@use 'pages/common';
+@use 'pages/header';
+
+/* ========= PC =============== */
+@media screen and (max-width: 1600px) {
+  h1 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 40px 40px 30px;
+  }
+
+  .wrapper {
+    // background-color: aquamarine;
+    margin: 0 40px;
+    font-size: 14px;
+
+    .corpInfo {
+      // background-color: ghostwhite;
+      width: 600px;
+      margin-bottom: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      // width: 100%;
+      width: 600px;
+
+      dt {
+        width: 30%;
+        border-bottom: solid 1px #dcdbdb;
+        // background-color: olivedrab;
+        // margin-right: 0;
+        padding: 20px 0;
+      }
+      dd {
+        width: 70%;
+        border-bottom: solid 1px #dcdbdb;
+        // background-color: sandybrown;
+        // margin-right: 40px;
+        margin-left: 0;
+        padding: 20px 0;
+      }
+      .corpInfo-last {
+        border-bottom: none;
+      }
+    }
+
+    .map {
+      background-color: lightgrey;
+      width: 600px;
+      // width: 65%;
+      height: 300px;
+      margin-bottom: 100px;
+    }
+  }
+
+  footer {
+    padding: 0 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    .menu {
+      display: flex;
+      font-size: 12px;
+      .twitter {
+        padding: 0 30px;
+      }
+    }
+    .copyright {
+      font-size: 10px;
+    }
+  }
+
+}
+
+
+
+
+/* ========= Mobile =============== */
+@media screen and (max-width: 900px) {
+  
+  .wrapper {
+    // background-color: lightgray;
+
+    .corpInfo {
+      // background-color: ghostwhite;
+      width: 100%;
+      display: block;
+
+      dt {
+        border-bottom: none;
+        padding-bottom: 0;
+        padding-top: 20px;
+        // background-color: gold;
+      }
+      dd {
+        padding-bottom: 20px;
+        padding-top: 5px;
+        // background-color: lightpink;
+        width: 100%;
+      }
+    }
+
+    .map {
+      background-color: lightgray;
+      width: 100%;
+    }
+
+  }
+
+  footer {
+    display: inline-block;
+    .menu {
+      display: flex;
+    }
+    .copyright {
+      padding-top: 5px;
+    }
+   }
+}
