@@ -1,0 +1,60 @@
+@use 'pages/common';
+@use 'pages/header';
+
+/* ========= PC =============== */
+@media screen and (max-width: 1600px) {
+  h1 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 40px 40px 30px;
+  }
+
+  .wrapper {
+    margin: 0 40px;
+    font-size: 14px;
+    .main {
+      width: 600px;
+      min-height: 650px;
+      .text-02 {
+        padding: 40px 0 120px;
+      }
+    }
+  }
+
+  footer {
+    padding: 0 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    .menu {
+      display: flex;
+      font-size: 12px;
+      .twitter {
+        padding: 0 30px;
+      }
+    }
+    .copyright {
+      font-size: 10px;
+    }
+  }
+}
+
+
+
+/* ========= Mobile =============== */
+@media screen and (max-width: 900px) {
+  .wrapper {
+    .main {
+      width: 100%;
+    }
+  }
+
+  footer {
+    display: inline-block;
+    .menu {
+      display: flex;
+    }
+    .copyright {
+      padding-top: 5px;
+    }
+  }
+}
