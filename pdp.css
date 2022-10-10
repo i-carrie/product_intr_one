@@ -1,0 +1,135 @@
+/*=======  Common ==========*/
+body {
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
+  font-family: "Hiragino Kaku Gothic ProN";
+  color: #333;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  border-style: none;
+}
+
+header {
+  padding-top: 32px;
+  height: 80px;
+}
+header .header {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* ========= PC =============== */
+@media screen and (max-width: 1600px) {
+  h1 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 40px 40px 30px;
+  }
+  .wrapper #item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    padding-left: 40px;
+  }
+  .wrapper #item #item-img {
+    width: 53%;
+  }
+  .wrapper #item #item-img img {
+    width: 90%;
+  }
+  .wrapper #item #item-text {
+    width: 47%;
+  }
+  .wrapper #item #item-text .item-text-second {
+    margin: 30px 0;
+  }
+  .wrapper #item #item-text dl {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .wrapper #item #item-text dl dt {
+    width: 25%;
+  }
+  .wrapper #item #item-text dl dd {
+    width: 60%;
+  }
+  .wrapper .back {
+    margin-top: 40px;
+    margin-bottom: 120px;
+    text-align: center;
+    font-size: 14px;
+  }
+  footer {
+    padding: 0 40px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .menu {
+    display: flex;
+    font-size: 12px;
+  }
+  footer .menu .twitter {
+    padding: 0 30px;
+  }
+  footer .copyright {
+    font-size: 10px;
+  }
+}
+/* ========= Mobile =============== */
+@media screen and (max-width: 900px) {
+  .wrapper #item {
+    display: inline-block;
+  }
+  .wrapper #item #item-img {
+    width: 100%;
+  }
+  .wrapper #item #item-img img {
+    width: 100%;
+    padding-right: 40px;
+  }
+  .wrapper #item #item-text {
+    width: 100%;
+    padding-right: 40px;
+  }
+  footer {
+    display: inline-block;
+  }
+  footer .menu {
+    display: flex;
+  }
+  footer .copyright {
+    padding-top: 5px;
+  }
+}
+/*# sourceMappingURL=pdp.css.map */
