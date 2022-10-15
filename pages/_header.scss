@@ -1,6 +1,23 @@
+// header {
+//   padding-top: 32px;
+//   height: 80px;
+
+//   .header {
+//     padding: 0 40px;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//   }
+// }
+
 header {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0px;
   padding-top: 32px;
   height: 80px;
+  
   .header {
     padding: 0 40px;
     display: flex;
