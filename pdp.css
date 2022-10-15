@@ -37,6 +37,10 @@ img {
 }
 
 header {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0px;
   padding-top: 32px;
   height: 80px;
 }
@@ -49,10 +53,10 @@ header .header {
 
 /* ========= PC =============== */
 @media screen and (max-width: 1600px) {
-  h1 {
+  .wrapper h1 {
     font-size: 14px;
     font-weight: normal;
-    margin: 40px 40px 30px;
+    margin: 120px 40px 30px;
   }
   .wrapper #item {
     display: flex;

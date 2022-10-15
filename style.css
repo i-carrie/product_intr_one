@@ -37,6 +37,10 @@ img {
 }
 
 header {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0px;
   padding-top: 32px;
   height: 80px;
 }
@@ -50,7 +54,7 @@ header .header {
 /* ========= PC =============== */
 @media screen and (max-width: 1600px) {
   .wrapper {
-    margin: 0 40px;
+    margin: 80px 40px 0;
   }
   .wrapper .container {
     display: grid;

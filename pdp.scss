@@ -3,14 +3,13 @@
 
 /* ========= PC =============== */
 @media screen and (max-width: 1600px) {
-
-  h1 {
-    font-size: 14px;
-    font-weight: normal;
-    margin: 40px 40px 30px;
-  }
-
+  
   .wrapper {
+    h1 {
+      font-size: 14px;
+      font-weight: normal;
+      margin: 120px 40px 30px;
+    }
     #item {
       display: flex;
       justify-content: space-between;
@@ -25,7 +24,6 @@
       }
       #item-text {
         width: 47%;
-
         .item-text-second {
           margin: 30px 0;
         }       
@@ -43,16 +41,13 @@
         }
       }     
     }
-
     .back {
       margin-top: 40px;
       margin-bottom: 120px;
       text-align: center;
       font-size: 14px;
     }
-  
   }
-
   footer {
     padding: 0 40px 20px;
     display: flex;
@@ -67,8 +62,7 @@
     .copyright {
       font-size: 10px;
     }
-  }
-  
+  }  
 }
 
 
@@ -89,11 +83,9 @@
       #item-text {
         width: 100%;
         padding-right: 40px;
-
       }
     }
   }
-
   footer {
     display: inline-block;
     .menu {
@@ -103,7 +95,6 @@
       padding-top: 5px;
     }
    }
-
 }
 
 
